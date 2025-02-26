@@ -1,4 +1,3 @@
-import { ModeToggle } from "@/components/theme/theme-toggle";
 import MainHero from "./Home/main-components/main-hero";
 import { AnimBeam } from "./Home/main-components/anim-beam";
 import { AnimList } from "./Home/main-components/anim-check-list";
@@ -9,7 +8,6 @@ export default function Home() {
   return (
     <div className="bg-gradient-to-r w-screen h-full from-slate-200/80 via-slate-200/80 to-slate-200/100 dark:from-slate-900/90 dark:via-slate-900/90 dark:to-slate-750/90">
       <MainHero/>
-      
       <div className="flex justify-center items-center">
         <BeautifulText/>
       </div>
