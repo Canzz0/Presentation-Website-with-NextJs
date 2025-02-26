@@ -42,10 +42,7 @@ const MainHero = () => {
           <MorphingText texts={texts} />
           </h1>
 
-          <div className="flex justify-center gap-4">
-            <Button>Get Started</Button>
-          </div>
-
+         
           <div className="grid md:grid-cols-3 gap-8 mt-20">
             {[
               { title: "İnovasyon", desc: "Her Zaman Yeni ve İyiler" },
