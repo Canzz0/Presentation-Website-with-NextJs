@@ -1,7 +1,9 @@
+import { FirstText } from "./components/first-text";
+
 function Info() {
   return (
-    <div>
-      <h1>Info</h1>
+    <div className="relative">
+      <FirstText />
     </div>
   );
 }
