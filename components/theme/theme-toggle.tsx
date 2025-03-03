@@ -1,6 +1,5 @@
 "use client"
 
-import * as React from "react"
 import { Moon, Sun } from "lucide-react"
 import { useTheme } from "next-themes"
 
@@ -25,13 +24,16 @@ export function ModeToggle() {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
-        <DropdownMenuItem onClick={() => setTheme("light")}>
+        <DropdownMenuItem onClick={() => setTheme("light")} className="flex items-center gap-2">
+          <div className="h-4 w-4 rounded-full bg-white border border-gray-200"></div>
           Açık
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("dark")}>
+        <DropdownMenuItem onClick={() => setTheme("dark")} className="flex items-center gap-2">
+          <div className="h-4 w-4 rounded-full bg-gray-900 border border-gray-700"></div>
           Koyu
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("system")}>
+        <DropdownMenuItem onClick={() => setTheme("system")} className="flex items-center gap-2">
+          <div className="h-4 w-4 rounded-full bg-gradient-to-r from-white to-gray-900 border border-gray-300"></div>
           Sistem
         </DropdownMenuItem>
       </DropdownMenuContent>

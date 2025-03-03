@@ -48,11 +48,11 @@ const MainHero = () => {
               { title: "Verimlilik", desc: "İşlerinizin Daha Hızlı Çalışması" },
               { title: "Büyüme", desc: "İşlerinizin Daha Hızlı Çalışması" }
             ].map((feature, index) => (
-              <div key={index} className="p-6 rounded-lg bg-white bg-opacity-10">
-                <h3 className={`text-xl font-bold ${maintheme.textColor}`}>
+              <div key={index} className="p-16 rounded-xl bg-white bg-opacity-10 hover:bg-opacity-20 transition-all duration-300 transform hover:scale-105">
+                <h3 className={`text-2xl md:text-3xl font-bold mb-4 ${maintheme.textColor}`}>
                   {feature.title}
                 </h3>
-                <p className={`${maintheme.textColor} opacity-80`}>{feature.desc}</p>
+                <p className={`${maintheme.textColor} opacity-80 text-lg`}>{feature.desc}</p>
               </div>
             ))}
           </div>
