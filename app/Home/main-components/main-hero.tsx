@@ -1,8 +1,7 @@
 "use client"
-import { Button } from "@/components/ui/button";
+import { MorphingText } from "@/components/magicui/morphing-text";
 import { motion } from "framer-motion";
 import { useTheme } from "next-themes";
-import { MorphingText } from "@/components/magicui/morphing-text";
 
 const MainHero = () => {
   const { theme } = useTheme();
@@ -19,9 +18,9 @@ const MainHero = () => {
     "Güvenlik",
     "Performans",
   ];
-  
- 
-  
+
+
+
   return (
     <div className={`relative overflow-hidden h-screen rounded-b-[30px] ${maintheme.bgColor}`}>
       <div className="absolute inset-0">
@@ -39,10 +38,10 @@ const MainHero = () => {
           className="max-w-4xl mx-auto text-center"
         >
           <h1 className={`text-4xl mt-16 md:text-6xl font-bold mb-6 ${maintheme.textColor}`}>
-          <MorphingText texts={texts} />
+            <MorphingText texts={texts} />
           </h1>
 
-         
+
           <div className="grid md:grid-cols-3 gap-8 mt-20">
             {[
               { title: "İnovasyon", desc: "Her Zaman Yeni ve İyiler" },

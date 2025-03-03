@@ -7,7 +7,7 @@ export function BeautifulText() {
         Dijital <AuroraText className="text-blue-500">Kalite Yönetim</AuroraText>Sistemi
       </h1>
       <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-       Firmalarınıza, <AuroraText color="text-blue-500" className="text-blue-500">Kalite ve Güvenlik</AuroraText> çözümleri sunuyoruz. 
+        Firmalarınıza, <AuroraText color="text-blue-500" className="text-blue-500">Kalite ve Güvenlik</AuroraText> çözümleri sunuyoruz.
         Müşteri memnuniyeti ve mükemmellik bizim önceliğimiz.
       </p>
     </div>
